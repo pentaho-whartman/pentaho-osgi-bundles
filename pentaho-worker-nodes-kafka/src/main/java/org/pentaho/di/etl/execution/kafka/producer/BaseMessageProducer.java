@@ -77,7 +77,7 @@ public class BaseMessageProducer {
    */
   private boolean isValidKafkaBootstrapServer( String kafkaBootstrapServers ) {
     boolean isValid = true;
-    String[] bootStrapServer  =   kafkaBootstrapServers.split( ":"  );
+    String[] bootStrapServer = kafkaBootstrapServers.split( ":" );
     if ( bootStrapServer.length > 0 && ( bootStrapServer[0].isEmpty() || bootStrapServer[1].isEmpty() ) ) {
       log.info( "Kafka host or port is not provided. Cannot post status message" );
       isValid = false;
