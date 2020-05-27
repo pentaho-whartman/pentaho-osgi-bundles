@@ -20,7 +20,7 @@
  *
  ******************************************************************************/
 
-package org.pentaho.di.etl.execution.kafka.producer;
+package org.hitachivantara.spring.kafka.producer;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

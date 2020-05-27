@@ -144,7 +144,6 @@
         <module>osgi-blueprint-api</module>
         <module>spring-framework-features</module>
         <module>spring-kafka</module>
-        <module>pentaho-worker-nodes-kafka</module>
       </modules>
     </profile>
     <profile>

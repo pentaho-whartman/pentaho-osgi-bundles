@@ -20,12 +20,12 @@
  *
  ******************************************************************************/
 
-package org.pentaho.di.etl.execution.kafka.producer;
+package org.hitachivantara.spring.kafka.producer;
 
 import org.apache.kafka.common.serialization.Serializer;
-import org.springframework.kafka.core.ProducerFactory;
-import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.osgi.service.blueprint.container.BlueprintContainer;
+import org.springframework.kafka.core.DefaultKafkaProducerFactory;
+import org.springframework.kafka.core.ProducerFactory;
 
 public class KafkaProducerFactory  {
   private static final String DEFAULT_KAFKA_PRODUCER_FACTORY_BEAN_NAME = "defaultKafkaProducerFactory";
